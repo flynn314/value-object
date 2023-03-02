@@ -1,0 +1,16 @@
+{
+	"name": "flynn314/value-object",
+	"description": "Value object",
+	"type": "library",
+	"license": "MIT",
+	"require": {
+		"php": "^7.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Flynn314\\": "src"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
