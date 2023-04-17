@@ -4,13 +4,21 @@
 	"type": "library",
 	"license": "MIT",
 	"require": {
-		"php": "^7.4|^8.2"
+		"php": "^8.1|^8.2"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "*"
 	},
 	"autoload": {
 		"psr-4": {
 			"Flynn314\\": "src"
 		}
 	},
+	"autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
 	"minimum-stability": "dev",
 	"prefer-stable": true
 }
